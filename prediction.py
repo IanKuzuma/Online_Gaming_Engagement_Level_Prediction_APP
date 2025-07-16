@@ -21,7 +21,7 @@ def run():
     gender = st.selectbox("Gender", ["Male", "Female"])
     location = st.selectbox("Location", ["USA", "Asia", "Europe", "Other"])
     genre = st.selectbox("Favorite Game Genre", ["Action", "Strategy", "RPG", "Sports", "Simulation"])
-    hours = st.number_input("Total Play Time (hours)", min_value=0.0, step=1)
+    hours = st.number_input("Total Play Time (hours)", min_value=0.0, step=1.0)
     purch_label = st.selectbox("In-Game Purchases?", ["No", "Yes"])  # UI labels
     purch = 1 if purch_label == "Yes" else 0  # convert to binary
     diff = st.selectbox("Preferred Game Difficulty", ["Easy", "Medium", "Hard"])

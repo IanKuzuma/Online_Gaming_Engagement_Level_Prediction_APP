@@ -24,7 +24,8 @@ with st.sidebar:
         unsafe_allow_html=True
     )
 
-    st.markdown('''This project focuses on predicting a player’s Engagement Level, 
+    st.write(" ")
+    st.markdown('''This project, made by :blue-background[Ian Ladityarsa], focuses on predicting a player’s Engagement Level, 
                 which are categorized as Low, Medium, or High, using behavioral and demographic data.''')
 
 if page == 'Data Exploration':
